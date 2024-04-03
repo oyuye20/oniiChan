@@ -814,10 +814,14 @@ video {
 }
 
 .bg-\[url\(\'bgNezuko1080\.jpg\'\)\] {
+  background-image: url('bgNezuko1080.jpg');
+}
+
+.bg-\[url\(\'images\/bgNezuko1080\.jpg\'\)\] {
   background-image: url('images/bgNezuko1080.jpg');
 }
 
-.bg-\[url\(\'newBorder\.png\'\)\] {
+.bg-\[url\(\'images\/newBorder\.png\'\)\] {
   background-image: url('images/newBorder.png');
 }
 
