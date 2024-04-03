@@ -12,9 +12,9 @@
 
 
 <body class="">
-    <div class="font-body relative">
+    <div class="font-body relative h-dvh">
 
-        <div class="slideBlack fixed w-full h-dvh z-50 bg-[url('images/bgNezuko1080.jpg')] bg-cover
+        <!-- <div class="slideBlack fixed w-full h-dvh z-50 bg-[url('images/bgNezuko1080.jpg')] bg-cover
         bg-center before:content-['']  flex justify-center items-center overscroll-none
             before:absolute
             before:inset-0
@@ -27,33 +27,47 @@
 
             <h1 class="text-6xl textSample text-white sm:text-8xl absolute w-full text-center">こんにちは</h1>
             <h1 class="text-6xl textSample2 text-white sm:text-8xl absolute w-full text-center">H E L L O</h1>
-        </div>   
+        </div> -->   
 
         <header class="bg-[url('images/bgNezuko1080.jpg')] bg-cover 
         w-full bg-top h-dvh flex flex-col" >
 
-            <div class="header1 p-10 animate grow">
-                <nav class="w-full flex justify-between animate-flip-up animate-once animate-ease-out animate-delay-[5000ms]">
+        <!-- animate-flip-up animate-once animate-ease-out animate-delay-[5000ms] -->
+
+            <div class="header1 p-10 animate grow-[3]">
+                <nav class="w-full flex justify-between">
                     <div class="flex items-center mx-4">
                         <img src="images/logoSite.png" alt="" class="h-5 object-scale-down">
                     </div>
                     
-                    <ul class="text-xl flex justify-center items-center gap-16 text-gray-300 font-body">
+                    <ul class="text-xl sm:flex justify-center items-center gap-16 
+                    text-gray-300 font-body hidden ">
                         <li><a href="">Home</a></li>
                         <li><a href="">Channels</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
-                </nav>
     
-                <div class="animate-fade-up animate-once animate-ease-out animate-delay-[4400ms] 
-                flex flex-col py-14 font-body font-bold h-full justify-center">
-                    <span class="text-7xl text-gray-300 mx-3">We Are</span>
-                    <span class="text-7xl text-[#A71CA9] mx-3">Onii-Chan</span>      
-                    <span class="text-7xl text-gray-200">こんにちは友人</span>
-                    
-                    <button class="bg-[#A71CA9] p-2
-                        text-white rounded-lg w-[9rem] mx-4 mt-5">
-                    Work with Us</button>
+                    <ion-icon name="menu-outline" class="text-white text-3xl sm:hidden"></ion-icon>
+
+                </nav>
+
+                <!-- animate-fade-up animate-once animate-ease-out animate-delay-[4400ms]  -->
+    
+                <div class="flex font-body font-bold h-full justify-center flex-col">
+
+                    <div class="title flex flex-col justify-center lg:text-8xl md:text-7xl sm:text-6xl text-5xl 
+                    grow sm:text-start text-center">
+                        <span class="text-gray-300 mx-3">We Are</span>
+                        <span class="text-[#A71CA9] mx-3">Onii-Chan</span>      
+                        <span class="text-gray-200">こんにちは友人</span>    
+                    </div>
+
+                    <div class="div flex sm:justify-start justify-center">
+                        <button class="bg-[#A71CA9] p-2 
+                        text-white rounded-lg w-[9rem] mx-4 mt-5">Work with Us</button>
+                    </div>
+            
+                 
                 </div>     
             </div>
 
@@ -64,7 +78,7 @@
                 </div> 
 
                 <div class="absolute flex w-full h-full">
-                    <img src="images/border.png" class="w-full object-cover" alt="">
+                    <img src="images/border2.png" class="w-full" alt="">
                 </div>
             </div>
             
@@ -112,9 +126,9 @@
             </div>
 
             <div class="TITLE flex justify-center
-            flex-wrap p-5 text-4xl text-white items-center font-bold relative h-[300px]">
+            flex-wrap p-5 items-center font-bold relative h-[300px]">
 
-                <div class="flex flex-col text-center">
+                <div class="flex flex-col text-center text-2xl text-white sm:text-4xl">
                     <span>Lorem ipsum dolor</span>
                     <span>amet, consectetur elit, sed</span>
                     <span>do eiusmod</span>
@@ -129,10 +143,10 @@
 
 
             <div class="gap-4 -mt-14 z-10 relative
-            bg-[url('images/newBorder.png')] bg-cover h-[200px] object-cover flex flex-col justify-end ">
+            bg-[url('images/newBorder.png')] bg-cover h-[200px] flex flex-col justify-end  max-[360px]:bg-center">
 
                 <div class="titleAnim flex flex-col items-center">
-                    <span class="text-[#A71CA9] text-3xl mb-3">私たちについてのコメント</span>
+                    <span class="text-[#A71CA9] sm:text-3xl mb-3 text-xl">私たちについてのコメント</span>
                     <span class="text-black">About Us</span>
                 </div>            
             </div>
@@ -143,7 +157,7 @@
 
             <div class="w-full flex relative  h-[200px] bg-white ">
                 <div class="titleAnim flex justify-end items-center w-full flex-col z-10">
-                    <span class="text-[#A71CA9] text-3xl mb-3">私たちについてのコメント</span>
+                    <span class="text-[#A71CA9] sm:text-3xl mb-3 text-xl">私たちについてのコメント</span>
                     <span class="text-gray-300">Comments About Us</span>
                 </div> 
 
@@ -158,7 +172,7 @@
 
         </main>
 
-        <footer class="bg-[#17191a] h-dvh">
+        <footer class="bg-[#17191a]">
             <div class="ANIMATE content">
                 <div class="relative sm:grid grid-cols-5 auto-rows-[130px] ">
                     <div class="absolute opacity-50 w-full
@@ -207,7 +221,7 @@
                     <div class="flex gap-5 flex-wrap">
     
                         <div class="FORM grow flex flex-col p-5 gap-4">
-                            <div class="flex gap-4">
+                            <div class="flex gap-4 flex-wrap">
                                 <div class="flex flex-col grow">
                                     <label class="text-white mb-2">Name 
                                         <span class="text-red-500 font-bold">*</span>
@@ -237,7 +251,7 @@
                             </div>
     
                             <div class="flex justify-end">
-                                <button class="bg-[#A71CA9] p-2 text-white rounded-lg w-1/4 font-bold h-full">Send</button>
+                                <button class="bg-[#A71CA9] p-2 text-white rounded-lg md:w-1/4 w-full font-bold h-full">Send</button>
                             </div>                 
                         </div>
     
