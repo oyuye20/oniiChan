@@ -447,7 +447,7 @@ video {
 @font-face {
   font-family: 'trialRooftop';
 
-  src: url(../src/fonts/TRIAL_Rooftop-Regular-BF64a6319fae1cf.woff) format('woff2');
+  src: url(fonts/TRIAL_Rooftop-Regular-BF64a6319fae1cf.woff) format('woff2');
 }
 
 *, ::before, ::after {
@@ -814,15 +814,15 @@ video {
 }
 
 .bg-\[url\(\'\.\.\/src\/images\/bgNezuko1080\.jpg\'\)\] {
-  background-image: url('../src/images/bgNezuko1080.jpg');
+  background-image: url('images/bgNezuko1080.jpg');
 }
 
 .bg-\[url\(\'\.\.\/src\/images\/bgNezuko1080\.png\'\)\] {
-  background-image: url('../src/images/bgNezuko1080.png');
+  background-image: url('images/bgNezuko1080.png');
 }
 
 .bg-\[url\(\'\.\.\/src\/images\/newBorder\.png\'\)\] {
-  background-image: url('../src/images/newBorder.png');
+  background-image: url('images/newBorder.png');
 }
 
 .bg-cover {
