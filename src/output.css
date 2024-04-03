@@ -813,10 +813,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'bgNezuko1080\.jpg\'\)\] {
-  background-image: url('bgNezuko1080.jpg');
-}
-
 .bg-\[url\(\'images\/bgNezuko1080\.jpg\'\)\] {
   background-image: url('images/bgNezuko1080.jpg');
 }
