@@ -1,0 +1,9 @@
+#card1, #card2, #card3 {
+    transition: scale 250ms ease-out;
+}
+
+#card1:hover, #card2:hover, #card3:hover {
+    transition: scale 250ms ease-out;
+    scale: 1.2; 
+}
+

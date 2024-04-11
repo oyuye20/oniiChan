@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OniiChan</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
     <script src="anime.min.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -53,19 +54,19 @@
 
                 <!-- animate-fade-up animate-once animate-ease-out animate-delay-[4400ms]  -->
     
-                <div class="animate-fade-up animate-once animate-ease-out animate-delay-[4400ms] 
+                <div class="animate-fade-up animate-once animate-ease-out animate-delay-[4400ms]
                 flex font-body font-bold h-full justify-center flex-col">
 
                     <div class="title flex flex-col justify-center lg:text-8xl md:text-7xl sm:text-6xl text-5xl 
-                    grow sm:text-start text-center">
+                    sm:text-start text-center">
                         <span class="text-gray-300 mx-3">We Are</span>
                         <span class="text-[#A71CA9] mx-3">Onii-Chan</span>      
                         <span class="text-gray-200">こんにちは友人</span>    
                     </div>
 
                     <div class="div flex sm:justify-start justify-center">
-                        <button class="bg-[#A71CA9] p-2 
-                        text-white rounded-lg w-[9rem] mx-4 mt-5">Work with Us</button>
+                        <button class="bg-[#A71CA9] hover:bg-[#ca5dcc]
+                        text-white rounded-lg w-[11rem] mx-4 mt-5 h-[3.5rem]">Work with Us</button>
                     </div>
             
                  
@@ -89,7 +90,8 @@
 
         <main class="bg-[#17191a] relative animate flex flex-col">
             <div class="flex justify-center gap-4 flex-wrap p-5 content h-full">
-                <div class="border-2 w-[300px] flex flex-col rounded-lg bg-white">
+
+                <div class="w-[300px] flex flex-col rounded-lg bg-white cursor-pointer shadow-lg" id="card1">
                     <div class="flex justify-center w-full">
                         <img src="images/1.png" class="rounded-lg object-cover" alt="">
                     </div>
@@ -101,7 +103,7 @@
                     </div>     
                 </div>
 
-                <div class="border-2 w-[300px] flex flex-col rounded-lg bg-white">
+                <div class="w-[300px] flex flex-col rounded-lg bg-white cursor-pointer shadow-lg" id="card2">
                     <div class="flex justify-center w-full">
                         <img src="images/2.jpg" class="rounded-lg object-cover" alt="">
                     </div>
@@ -113,7 +115,7 @@
                     </div>     
                 </div>
 
-                <div class="border-2 w-[300px] flex flex-col rounded-lg bg-white">
+                <div class="w-[300px] flex flex-col rounded-lg bg-white cursor-pointer shadow-lg" id="card3">
                     <div class="flex justify-center w-full">
                         <img src="images/3.jpg" class="rounded-lg object-cover" alt="">
                     </div>
@@ -364,9 +366,6 @@
     anime.timeline({
         loop: false,      
     })
-
-
-
 
 
     .add({
